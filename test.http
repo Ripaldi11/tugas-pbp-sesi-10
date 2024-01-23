@@ -1,0 +1,28 @@
+### Get All Mahasiswa
+GET http://localhost:3000/api/mahasiswa
+
+### Add New Mahasiswa
+POST http://localhost:3000/api/mahasiswa
+Content-Type: application/json
+
+{
+  "nim": "20220040155",
+  "nama": "Muhamad Satria",
+  "gender": "Laki-laki",
+  "prodi": "Teknik Informatika",
+  "alamat": "Selabintana"
+}
+
+### Update Mahasiswa
+PUT http://localhost:3000/api/mahasiswa/20220040155
+Content-Type: application/json
+
+{
+  "nama": "Satria Muhamad",
+  "gender": "laki-laki",
+  "prodi": "Sistem Informatika Semester 3",
+  "alamat": "TI22A"
+}
+
+### Delete Mahasiswa
+DELETE http://localhost:3000/api/mahasiswa/20220040155
