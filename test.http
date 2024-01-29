@@ -6,22 +6,22 @@ POST http://localhost:3000/api/mahasiswa
 Content-Type: application/json
 
 {
-  "nim": "20220040155",
-  "nama": "Muhamad Satria",
+  "nim": "20220040249",
+  "nama": "Muhamad Ripaldi",
   "gender": "Laki-laki",
   "prodi": "Teknik Informatika",
-  "alamat": "Selabintana"
+  "alamat": "kelapanunggal"
 }
 
 ### Update Mahasiswa
-PUT http://localhost:3000/api/mahasiswa/20220040155
+PUT http://localhost:3000/api/mahasiswa/20220040249
 Content-Type: application/json
 
 {
-  "nama": "Satria Muhamad",
+  "nama": "ripaldi",
   "gender": "laki-laki",
   "prodi": "Sistem Informatika Semester 3",
-  "alamat": "TI22A"
+  "alamat": "TI22H"
 }
 
 ### Delete Mahasiswa
